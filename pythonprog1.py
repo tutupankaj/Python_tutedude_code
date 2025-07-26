@@ -1,8 +1,11 @@
 a = float(input('Enter a number\n'))
 b = float(input('Enter a second number\n'))
-s=a+b
-print('The sum value is',s)
-fd=a/b
-print('The float division value',fd)
-d=a//b
-print('The integer division value:',d)
+add=a+b
+print('The sum value is',add)
+sub=a-b
+print('The diff value is',sub)
+mul=a*b
+print('The multiplication value',mul)
+d=float(a/b)
+print('The division value:',d)
+
